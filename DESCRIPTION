@@ -1,0 +1,21 @@
+Package: frbaremekm
+Type: Package
+Title: French Tax Mileage Allowance Scale ('Bareme Kilometrique')
+Version: 0.1.0
+Authors@R: c(
+    person("Rédaction MaCalculatrice", role = c("aut", "cre"),
+           email = "contact@macalculatriceenligne.com"),
+    person("MaCalculatriceEnLigne", role = "cph"))
+Description: The French tax mileage allowance scale ('bareme kilometrique')
+    used to deduct professional travel costs ('frais reels') from French
+    income tax: tax returns 2022 to 2026 (income years 2021 to 2025), cars,
+    motorcycles and mopeds, 135 rates, with the 20 % increase for 100 %
+    electric vehicles. Port of the Go package 'baremekm' published by
+    MaCalculatriceEnLigne; no dependency.
+License: MIT + file LICENSE
+URL: https://github.com/tresor4k/fr-bareme-km-r,
+    https://macalculatriceenligne.com/finance/divers/calcul-frais-kilometriques/
+BugReports: https://github.com/tresor4k/fr-bareme-km-r/issues
+Language: en-US
+Encoding: UTF-8
+Depends: R (>= 4.0)

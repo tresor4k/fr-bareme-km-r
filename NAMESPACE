@@ -1,0 +1,6 @@
+export(bareme_amount)
+export(bareme_amount_electric)
+export(bareme_class)
+export(bareme_income_year)
+export(bareme_rates)
+export(bareme_source)
